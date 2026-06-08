@@ -89,11 +89,11 @@ Input (1×64×200)
 
 | Epoch | Loss | Val CER |
 |:---:|:---:|:---:|
-| 1 | 3.8368 | 0.9402 |
-| 10 | 1.9428 | 0.5354 |
-| 20 | 0.0884 | 0.0232 |
-| 30 | 0.0370 | 0.0152 |
-| 40 | 0.0278 | **0.0052** |
+| 1 | 3.8055 | 0.9501 |
+| 10 | 3.5647 | 0.9398 |
+| 20 | 0.1708 | 0.0171 |
+| 30 | 0.0185 | 0.0061 |
+| 40 | 0.0094 | **0.0052** |
 
 ---
 
@@ -151,7 +151,7 @@ Two labels were corrupted by Excel auto-formatting during dataset creation, iden
 
 **Step 3** — Run Cell 1 (Imports). When Cell 3 executes, upload the dataset zip when prompted.
 
-**Step 4** — Run all remaining cells in order. Training takes ~25–30 minutes on T4.
+**Step 4** — Run all remaining cells in order. Training takes ~20–25 minutes on T4.
 
 **Step 5** — Cell 11 auto-downloads `submission.csv` on completion.
 
